@@ -234,7 +234,6 @@ h4 {
   display: block;
   background-color: rgba(0, 0, 0, 0.723);
   border-radius: 5px;
-  padding: 1rem;
 }
 .more img {
   padding: 0.5rem;
@@ -250,10 +249,11 @@ h4 {
   color: white;
   padding: 1rem;
   font-size: 15px;
-  margin-top: -70px;
+  margin-top: -50px;
   border-radius: 5px;
   z-index: 1;
   height: 5rem;
+  width: 100%;
   display: none;
 }
 .more:hover p {
