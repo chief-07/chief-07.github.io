@@ -203,11 +203,6 @@ nav ul p {
   font-size: xx-large;
   text-align: center;
 }
-/* .thesis-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
 .vid-section video {
   padding: 0 24px 24px 24px;
 }
@@ -338,7 +333,7 @@ footer a {
     display: none;
   }
   .info-section img {
-    height: 20vh;
+    height: 50vh;
   }
   .info-section a {
     padding-bottom: 64px;
