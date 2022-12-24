@@ -17,6 +17,7 @@ h1 {
   color: #808080;
   font-weight: 500;
 }
+/* nav bar */
 .colmar {
   color: #323232;
 }
@@ -46,6 +47,8 @@ nav ul p {
 .mobile {
   display: none;
 }
+
+/* main section  */
 .main-section {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -62,7 +65,7 @@ nav ul p {
   padding: 8px 8px;
   background-color: #4a4a4a;
   color: white;
-  width: 100%;
+  width: 80%;
   text-align: center;
   display: block;
 }
@@ -93,6 +96,8 @@ nav ul p {
   grid-template-columns: 60% 40%;
   padding-bottom: 32px;
 }
+
+/* img section  */
 .img-section {
   padding: 32px 24px 0 24px;
 }
@@ -174,6 +179,8 @@ nav ul p {
   color: #4a4a4a;
   font-size: 1.5vw;
 }
+
+/* thesis  */
 .thesis {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -226,10 +233,12 @@ footer {
 footer a {
   color: #4a4a4a;
 }
+/* mobile version  */
 
 @media screen and (max-width: 650px) {
   .mobile {
     display: block;
+    margin-right: 2rem;
   }
   .nav-txt {
     display: none;
@@ -241,6 +250,9 @@ footer a {
     display: flex;
     flex-direction: column;
     padding: 0;
+  }
+  .btn {
+    width: 100%;
   }
   .learn-content h2 {
     font-size: 2rem;
@@ -333,7 +345,7 @@ footer a {
     display: none;
   }
   .info-section img {
-    height: 50vh;
+    height: 20vh;
   }
   .info-section a {
     padding-bottom: 64px;
